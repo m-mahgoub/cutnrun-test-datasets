@@ -1,0 +1,2 @@
+# swarm -f DeepTools_computeMatrix.swarm -g 64 --threads-per-process 32 --time=24:00:00 --module deeptools
+bash DeepTools_computeMatrix.sh t0_rep1

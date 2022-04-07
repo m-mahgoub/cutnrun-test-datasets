@@ -1,0 +1,18 @@
+# swarm -f qc.swarm -g 8 --time=1:00:00 --module fastqc
+
+module load fastqc
+
+
+
+bash qc.sh input_rep1_R1.fastq.gz
+bash qc.sh input_rep1_R2.fastq.gz
+bash qc.sh input_rep2_R1.fastq.gz
+bash qc.sh input_rep2_R2.fastq.gz
+bash qc.sh t0_rep1_R1.fastq.gz
+bash qc.sh t0_rep1_R2.fastq.gz
+bash qc.sh t0_rep2_R1.fastq.gz
+bash qc.sh t0_rep2_R2.fastq.gz
+bash qc.sh t15_rep1_R1.fastq.gz
+bash qc.sh t15_rep1_R2.fastq.gz
+bash qc.sh t15_rep2_R1.fastq.gz
+bash qc.sh t15_rep2_R2.fastq.gz

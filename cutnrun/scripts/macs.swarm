@@ -1,0 +1,6 @@
+# swarm -f macs.swarm -g 32 --time=12:00:00 --module macs --gres=lscratch:10
+
+bash macs.sh t0_rep1 input_rep1
+bash macs.sh t0_rep2 input_rep2
+bash macs.sh t15_rep1 input_rep1
+bash macs.sh t15_rep2 input_rep2

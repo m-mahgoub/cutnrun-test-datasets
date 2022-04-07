@@ -1,0 +1,10 @@
+# swarm -f DeepTools_bamCoverage.swarm -g 32 --threads-per-process 16 --time=12:00:00 --module deeptools
+
+bash DeepTools_bamCoverage.sh input_rep1 &&
+bash DeepTools_bamCoverage.sh input_rep2 &&
+bash DeepTools_bamCoverage.sh t0_rep1 &&
+bash DeepTools_bamCoverage.sh t0_rep2 &&
+bash DeepTools_bamCoverage.sh t15_rep1 &&
+bash DeepTools_bamCoverage.sh t15_rep2
+
+

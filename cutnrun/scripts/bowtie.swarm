@@ -1,0 +1,8 @@
+module load bowtie/2
+module load samtools
+bash bowtie.sh input_rep1_R1 input_rep1_R2 input_rep1 &&
+bash bowtie.sh input_rep2_R1 input_rep2_R2 input_rep2 &&
+bash bowtie.sh t0_rep1_R1 t0_rep1_R2 t0_rep1 &&
+bash bowtie.sh t0_rep2_R1 t0_rep2_R2 t0_rep2 &&
+bash bowtie.sh t15_rep1_R1 t15_rep1_R2 t15_rep1 &&
+bash bowtie.sh t15_rep2_R1 t15_rep2_R2 t15_rep2
