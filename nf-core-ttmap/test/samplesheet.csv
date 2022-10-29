@@ -1,5 +1,5 @@
-sample,bam,single_end
-sample1,https://raw.githubusercontent.com/m-mahgoub/test-datasets/main/nf-core-ttmap/test/bam/NA12878_mito_2.bam,false
-sample2,https://raw.githubusercontent.com/m-mahgoub/test-datasets/main/nf-core-ttmap/test/bam/NA12878_mito_3.bam,false
-sample3,https://raw.githubusercontent.com/m-mahgoub/test-datasets/main/nf-core-ttmap/test/bam/NA12878_mito_4.bam,false
-sample4,https://raw.githubusercontent.com/m-mahgoub/test-datasets/main/nf-core-ttmap/test/bam/NA12878_mito_5.bam,false
+sample,bam,single_end,group
+sample1,https://raw.githubusercontent.com/m-mahgoub/test-datasets/main/nf-core-ttmap/test/bam/NA12878_mito_2.bam,false,treatment
+sample2,https://raw.githubusercontent.com/m-mahgoub/test-datasets/main/nf-core-ttmap/test/bam/NA12878_mito_3.bam,false,treatment
+sample3,https://raw.githubusercontent.com/m-mahgoub/test-datasets/main/nf-core-ttmap/test/bam/NA12878_mito_4.bam,false,treatment
+sample4,https://raw.githubusercontent.com/m-mahgoub/test-datasets/main/nf-core-ttmap/test/bam/NA12878_mito_5.bam,false,control
